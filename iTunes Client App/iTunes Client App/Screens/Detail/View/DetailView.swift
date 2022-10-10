@@ -58,7 +58,7 @@ final class DetailView: UIView {
         didSet {
             countryKeyLabel.text = "Country:"
             countryKeyLabel.font = .boldSystemFont(ofSize: 17.0)
-            countryLabel.text = "\(isFav)" ?? "-"
+            countryLabel.text = country ?? "-"
         }
     }
     
